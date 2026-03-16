@@ -1,0 +1,608 @@
+time="2026-03-15T19:26:23-07:00" level=warning msg="skipping device /dev/char/10:200 for systemd: stat /sys/dev/char/10:200: no such file or directory"
+/home/pnemade/prj_213
+-- CUDA-capable GPU found. GPU architecture: 80
+-- Found TBB: /usr/lib/x86_64-linux-gnu/cmake/TBB (found version "2021.5.0")
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pnemade/prj_213/build
+Consolidate compiler generated dependencies of target nussinov_serial
+[100%] Built target nussinov_serial
+Read 50 sequences from file
+Sequence 0 optimal pairs: 4
+(0,20) G-C
+(2,15) C-G
+(3,13) C-G
+(5,12) A-U
+------------------------
+Kernel (Serial GPU): 0.357376 ms, Traceback (CPU): 0.00464 ms
+
+Sequence 1 optimal pairs: 5
+(11,19) G-C
+(0,10) U-A
+(1,9) C-G
+(2,7) C-G
+(13,18) G-C
+------------------------
+Kernel (Serial GPU): 0.258048 ms, Traceback (CPU): 0.00349 ms
+
+Sequence 2 optimal pairs: 7
+(0,22) C-G
+(1,21) C-G
+(2,20) U-A
+(3,16) G-C
+(4,15) G-C
+(5,14) U-A
+(6,13) A-U
+------------------------
+Kernel (Serial GPU): 0.386048 ms, Traceback (CPU): 0.0029 ms
+
+Sequence 3 optimal pairs: 10
+(0,28) G-C
+(1,27) G-C
+(2,26) C-G
+(3,25) A-U
+(4,24) G-C
+(5,23) A-U
+(9,22) G-C
+(10,21) A-U
+(11,20) G-C
+(12,17) C-G
+------------------------
+Kernel (Serial GPU): 0.611328 ms, Traceback (CPU): 0.00376 ms
+
+Sequence 4 optimal pairs: 8
+(0,20) G-C
+(1,19) G-C
+(2,18) C-G
+(3,17) A-U
+(4,16) A-U
+(5,15) C-G
+(6,14) G-C
+(8,13) A-U
+------------------------
+Kernel (Serial GPU): 0.284672 ms, Traceback (CPU): 0.00284 ms
+
+Sequence 5 optimal pairs: 7
+(0,22) G-C
+(1,21) G-C
+(2,20) C-G
+(3,19) G-C
+(4,18) A-U
+(6,17) G-C
+(8,13) U-A
+------------------------
+Kernel (Serial GPU): 0.333824 ms, Traceback (CPU): 0.002889 ms
+
+Sequence 6 optimal pairs: 9
+(0,26) G-C
+(1,25) G-C
+(2,24) C-G
+(3,23) G-C
+(4,19) U-A
+(5,18) C-G
+(6,17) A-U
+(7,15) C-G
+(9,14) C-G
+------------------------
+Kernel (Serial GPU): 0.521216 ms, Traceback (CPU): 0.00329 ms
+
+Sequence 7 optimal pairs: 7
+(0,21) G-C
+(1,19) U-A
+(3,18) C-G
+(4,17) G-C
+(7,16) G-C
+(8,15) A-U
+(9,14) C-G
+------------------------
+Kernel (Serial GPU): 0.376832 ms, Traceback (CPU): 0.00359 ms
+
+Sequence 8 optimal pairs: 6
+(0,21) G-C
+(1,19) C-G
+(2,17) C-G
+(3,14) A-U
+(5,13) U-A
+(7,12) A-U
+------------------------
+Kernel (Serial GPU): 0.309248 ms, Traceback (CPU): 0.0033 ms
+
+Sequence 9 optimal pairs: 3
+(1,16) G-C
+(3,14) A-U
+(5,10) A-U
+------------------------
+Kernel (Serial GPU): 0.234496 ms, Traceback (CPU): 0.00234 ms
+
+Sequence 10 optimal pairs: 7
+(0,19) G-C
+(1,18) G-C
+(2,17) G-C
+(3,16) A-U
+(5,14) A-U
+(6,13) A-U
+(7,12) C-G
+------------------------
+Kernel (Serial GPU): 0.252928 ms, Traceback (CPU): 0.00275 ms
+
+Sequence 11 optimal pairs: 8
+(0,21) G-C
+(1,20) G-C
+(2,19) C-G
+(3,18) G-C
+(5,16) C-G
+(6,15) A-U
+(7,14) U-A
+(8,13) G-C
+------------------------
+Kernel (Serial GPU): 0.311296 ms, Traceback (CPU): 0.00299 ms
+
+Sequence 12 optimal pairs: 8
+(0,21) G-C
+(1,20) G-C
+(2,19) C-G
+(3,18) G-C
+(5,16) G-C
+(6,15) U-A
+(7,14) U-A
+(8,13) C-G
+------------------------
+Kernel (Serial GPU): 0.313344 ms, Traceback (CPU): 0.00316 ms
+
+Sequence 13 optimal pairs: 7
+(0,25) G-C
+(1,21) G-C
+(2,17) C-G
+(3,16) G-C
+(4,15) C-G
+(5,14) G-C
+(6,13) G-C
+------------------------
+Kernel (Serial GPU): 0.560128 ms, Traceback (CPU): 0.00273 ms
+
+Sequence 14 optimal pairs: 5
+(0,19) G-C
+(11,18) A-U
+(1,10) G-C
+(2,8) C-G
+(12,17) G-C
+------------------------
+Kernel (Serial GPU): 0.289792 ms, Traceback (CPU): 0.003551 ms
+
+Sequence 15 optimal pairs: 9
+(0,24) G-C
+(1,23) G-C
+(2,21) A-U
+(3,20) A-U
+(5,19) C-G
+(6,17) A-U
+(7,16) G-C
+(8,15) G-C
+(9,14) C-G
+------------------------
+Kernel (Serial GPU): 0.412672 ms, Traceback (CPU): 0.00323 ms
+
+Sequence 16 optimal pairs: 7
+(0,22) G-C
+(1,21) G-C
+(4,19) G-C
+(5,18) A-U
+(8,17) C-G
+(9,16) U-A
+(10,15) C-G
+------------------------
+Kernel (Serial GPU): 0.420864 ms, Traceback (CPU): 0.00305 ms
+
+Sequence 17 optimal pairs: 9
+(0,28) G-C
+(1,27) G-C
+(2,26) A-U
+(3,23) G-C
+(4,22) U-A
+(6,21) C-G
+(9,20) C-G
+(10,19) A-U
+(11,18) A-U
+------------------------
+Kernel (Serial GPU): 0.602112 ms, Traceback (CPU): 0.003671 ms
+
+Sequence 18 optimal pairs: 9
+(0,28) C-G
+(1,27) A-U
+(2,26) U-A
+(3,25) A-U
+(18,23) G-C
+(4,17) C-G
+(5,16) U-A
+(6,15) U-A
+(8,14) A-U
+------------------------
+Kernel (Serial GPU): 0.601088 ms, Traceback (CPU): 0.00419 ms
+
+Sequence 19 optimal pairs: 7
+(0,20) G-C
+(3,19) A-U
+(4,18) C-G
+(5,17) U-A
+(6,16) G-C
+(8,15) C-G
+(9,14) G-C
+------------------------
+Kernel (Serial GPU): 0.385024 ms, Traceback (CPU): 0.00308 ms
+
+Sequence 20 optimal pairs: 9
+(0,28) G-C
+(1,27) G-C
+(2,26) G-C
+(3,25) U-A
+(4,24) G-C
+(17,22) G-C
+(5,15) C-G
+(6,14) U-A
+(7,13) C-G
+------------------------
+Kernel (Serial GPU): 0.6144 ms, Traceback (CPU): 0.003931 ms
+
+Sequence 21 optimal pairs: 8
+(0,22) G-C
+(1,21) G-C
+(2,20) C-G
+(3,19) C-G
+(4,17) U-A
+(5,16) A-U
+(6,15) A-U
+(7,12) G-C
+------------------------
+Kernel (Serial GPU): 0.349184 ms, Traceback (CPU): 0.00267 ms
+
+Sequence 22 optimal pairs: 10
+(0,26) G-C
+(1,25) G-C
+(2,24) C-G
+(3,23) A-U
+(4,22) C-G
+(5,21) G-C
+(6,20) A-U
+(7,19) G-C
+(8,17) G-C
+(9,16) U-A
+------------------------
+Kernel (Serial GPU): 0.510976 ms, Traceback (CPU): 0.00329 ms
+
+Sequence 23 optimal pairs: 7
+(0,19) G-C
+(1,18) G-C
+(2,17) U-A
+(3,16) C-G
+(4,15) A-U
+(5,14) G-C
+(6,12) U-A
+------------------------
+Kernel (Serial GPU): 0.246784 ms, Traceback (CPU): 0.00249 ms
+
+Sequence 24 optimal pairs: 6
+(0,19) A-U
+(1,18) A-U
+(2,17) U-A
+(3,16) C-G
+(4,15) C-G
+(5,12) A-U
+------------------------
+Kernel (Serial GPU): 0.278528 ms, Traceback (CPU): 0.00268 ms
+
+Sequence 25 optimal pairs: 11
+(0,26) G-C
+(1,25) G-C
+(2,24) A-U
+(3,23) A-U
+(4,22) G-C
+(6,21) C-G
+(7,20) C-G
+(8,19) G-C
+(9,18) G-C
+(10,17) U-A
+(11,16) C-G
+------------------------
+Kernel (Serial GPU): 0.54272 ms, Traceback (CPU): 0.00353 ms
+
+Sequence 26 optimal pairs: 11
+(0,26) G-C
+(1,25) G-C
+(2,24) A-U
+(3,23) A-U
+(4,22) G-C
+(5,21) C-G
+(7,20) C-G
+(8,19) G-C
+(9,18) G-C
+(10,17) U-A
+(11,16) C-G
+------------------------
+Kernel (Serial GPU): 0.513024 ms, Traceback (CPU): 0.00337 ms
+
+Sequence 27 optimal pairs: 8
+(2,26) U-A
+(4,23) A-U
+(7,22) C-G
+(8,21) G-C
+(9,20) U-A
+(10,19) G-C
+(11,18) C-G
+(12,17) C-G
+------------------------
+Kernel (Serial GPU): 0.534528 ms, Traceback (CPU): 0.003671 ms
+
+Sequence 28 optimal pairs: 7
+(0,19) A-U
+(1,18) U-A
+(2,17) G-C
+(3,16) C-G
+(5,15) U-A
+(6,14) G-C
+(7,13) U-A
+------------------------
+Kernel (Serial GPU): 0.260096 ms, Traceback (CPU): 0.00268 ms
+
+Sequence 29 optimal pairs: 6
+(11,24) C-G
+(0,10) G-C
+(1,8) C-G
+(2,7) G-C
+(12,23) G-C
+(14,20) U-A
+------------------------
+Kernel (Serial GPU): 0.461824 ms, Traceback (CPU): 0.003911 ms
+
+Sequence 30 optimal pairs: 8
+(0,19) G-C
+(1,18) G-C
+(2,17) G-C
+(3,16) C-G
+(4,15) U-A
+(5,14) U-A
+(6,13) C-G
+(7,12) A-U
+------------------------
+Kernel (Serial GPU): 0.254976 ms, Traceback (CPU): 0.0027 ms
+
+Sequence 31 optimal pairs: 8
+(0,21) G-C
+(1,20) G-C
+(2,19) A-U
+(3,18) G-C
+(4,16) U-A
+(5,15) G-C
+(7,14) C-G
+(8,13) C-G
+------------------------
+Kernel (Serial GPU): 0.324608 ms, Traceback (CPU): 0.00281 ms
+
+Sequence 32 optimal pairs: 9
+(0,28) G-C
+(1,27) A-U
+(2,26) U-A
+(3,25) A-U
+(18,23) G-C
+(4,17) C-G
+(5,16) U-A
+(6,15) U-A
+(8,14) A-U
+------------------------
+Kernel (Serial GPU): 0.6144 ms, Traceback (CPU): 0.00417 ms
+
+Sequence 33 optimal pairs: 7
+(0,21) G-C
+(2,19) C-G
+(3,18) U-A
+(4,17) C-G
+(6,16) C-G
+(7,15) A-U
+(8,14) G-C
+------------------------
+Kernel (Serial GPU): 0.318464 ms, Traceback (CPU): 0.00281 ms
+
+Sequence 34 optimal pairs: 8
+(0,23) G-C
+(1,22) G-C
+(2,21) U-A
+(3,20) U-A
+(4,19) C-G
+(5,16) C-G
+(6,15) C-G
+(8,13) U-A
+------------------------
+Kernel (Serial GPU): 0.384 ms, Traceback (CPU): 0.00284 ms
+
+Sequence 35 optimal pairs: 8
+(0,24) G-C
+(2,22) C-G
+(4,21) G-C
+(5,20) U-A
+(6,19) G-C
+(7,18) U-A
+(8,17) G-C
+(9,15) A-U
+------------------------
+Kernel (Serial GPU): 0.425984 ms, Traceback (CPU): 0.00311 ms
+
+Sequence 36 optimal pairs: 10
+(0,27) G-C
+(2,25) C-G
+(3,24) C-G
+(4,23) A-U
+(5,22) G-C
+(6,21) A-U
+(9,20) G-C
+(10,19) A-U
+(11,18) G-C
+(12,17) C-G
+------------------------
+Kernel (Serial GPU): 4.59366 ms, Traceback (CPU): 0.00434 ms
+
+Sequence 37 optimal pairs: 7
+(0,26) G-C
+(2,24) C-G
+(3,23) U-A
+(4,21) G-C
+(5,18) C-G
+(6,16) U-A
+(7,15) U-A
+------------------------
+Kernel (Serial GPU): 0.494592 ms, Traceback (CPU): 0.00334 ms
+
+Sequence 38 optimal pairs: 9
+(0,25) G-C
+(1,24) A-U
+(2,23) G-C
+(3,22) C-G
+(6,21) C-G
+(8,20) G-C
+(9,18) C-G
+(10,17) A-U
+(11,16) C-G
+------------------------
+Kernel (Serial GPU): 0.46592 ms, Traceback (CPU): 0.00351 ms
+
+Sequence 39 optimal pairs: 10
+(0,26) G-C
+(1,25) G-C
+(2,24) A-U
+(3,23) U-A
+(4,22) C-G
+(5,21) C-G
+(7,19) U-A
+(8,18) U-A
+(9,17) C-G
+(11,16) A-U
+------------------------
+Kernel (Serial GPU): 0.514048 ms, Traceback (CPU): 0.00348 ms
+
+Sequence 40 optimal pairs: 9
+(0,23) G-C
+(1,22) G-C
+(2,21) C-G
+(3,20) U-A
+(6,19) G-C
+(7,18) A-U
+(8,17) U-A
+(9,16) C-G
+(10,15) A-U
+------------------------
+Kernel (Serial GPU): 0.377856 ms, Traceback (CPU): 0.0034 ms
+
+Sequence 41 optimal pairs: 10
+(0,26) G-C
+(1,25) G-C
+(2,24) A-U
+(3,23) C-G
+(4,22) U-A
+(5,21) U-A
+(9,20) U-A
+(10,19) U-A
+(11,18) G-C
+(12,17) C-G
+------------------------
+Kernel (Serial GPU): 0.504832 ms, Traceback (CPU): 0.00376 ms
+
+Sequence 42 optimal pairs: 10
+(0,27) G-C
+(1,26) G-C
+(2,25) G-C
+(3,24) C-G
+(4,21) A-U
+(6,20) U-A
+(8,19) A-U
+(9,18) U-A
+(10,17) G-C
+(11,16) C-G
+------------------------
+Kernel (Serial GPU): 0.55296 ms, Traceback (CPU): 0.00317 ms
+
+Sequence 43 optimal pairs: 9
+(0,23) G-C
+(1,22) G-C
+(2,21) G-C
+(3,20) C-G
+(4,19) U-A
+(5,18) A-U
+(6,17) A-U
+(7,15) U-A
+(9,14) U-A
+------------------------
+Kernel (Serial GPU): 0.377856 ms, Traceback (CPU): 0.003229 ms
+
+Sequence 44 optimal pairs: 8
+(0,22) G-C
+(1,21) G-C
+(2,20) G-C
+(3,19) U-A
+(4,18) G-C
+(5,16) U-A
+(6,14) A-U
+(7,12) U-A
+------------------------
+Kernel (Serial GPU): 0.344064 ms, Traceback (CPU): 0.00257 ms
+
+Sequence 45 optimal pairs: 11
+(0,28) G-C
+(1,27) G-C
+(2,26) A-U
+(3,25) G-C
+(4,24) U-A
+(5,23) A-U
+(6,22) U-A
+(7,21) G-C
+(8,19) U-A
+(9,17) A-U
+(10,15) U-A
+------------------------
+Kernel (Serial GPU): 0.603136 ms, Traceback (CPU): 0.00327 ms
+
+Sequence 46 optimal pairs: 11
+(0,28) G-C
+(1,27) G-C
+(2,26) G-C
+(3,25) U-A
+(4,24) U-A
+(5,23) G-C
+(7,22) C-G
+(8,21) C-G
+(9,20) G-C
+(10,19) U-A
+(12,18) G-C
+------------------------
+Kernel (Serial GPU): 0.59904 ms, Traceback (CPU): 0.0033 ms
+
+Sequence 47 optimal pairs: 8
+(0,25) G-C
+(1,23) C-G
+(2,21) U-A
+(4,19) A-U
+(5,16) G-C
+(6,15) C-G
+(7,14) U-A
+(8,13) C-G
+------------------------
+Kernel (Serial GPU): 0.463872 ms, Traceback (CPU): 0.00281 ms
+
+Sequence 48 optimal pairs: 6
+(1,19) C-G
+(4,18) G-C
+(5,17) U-A
+(6,16) U-A
+(7,15) U-A
+(8,14) U-A
+------------------------
+Kernel (Serial GPU): 0.349184 ms, Traceback (CPU): 0.00289 ms
+
+Sequence 49 optimal pairs: 6
+(1,19) C-G
+(4,18) G-C
+(5,17) U-A
+(6,16) U-A
+(7,15) U-A
+(8,14) A-U
+------------------------
+Kernel (Serial GPU): 0.34304 ms, Traceback (CPU): 0.00293 ms
+
+Total runtime for all sequences: 329.929 ms

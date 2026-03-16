@@ -1,0 +1,123 @@
+time="2026-03-15T18:43:18-07:00" level=warning msg="skipping device /dev/char/10:200 for systemd: stat /sys/dev/char/10:200: no such file or directory"
+/home/pnemade/prj_213
+-- CUDA-capable GPU found. GPU architecture: 80
+-- Found TBB: /usr/lib/x86_64-linux-gnu/cmake/TBB (found version "2021.5.0")
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pnemade/prj_213/build
+Consolidate compiler generated dependencies of target nussinov_parallel
+[100%] Built target nussinov_parallel
+Read 3 sequences from file
+Sequence 0 optimal pairs: 33
+(1,99) A-U
+(2,97) G-C
+(5,96) G-C
+(6,95) G-C
+(7,94) U-A
+(8,93) G-C
+(9,92) G-C
+(11,91) A-U
+(13,88) A-U
+(14,87) G-C
+(15,86) G-C
+(17,85) U-A
+(18,84) G-C
+(19,83) G-C
+(71,81) U-A
+(20,70) U-A
+(21,68) G-C
+(48,67) G-C
+(22,47) G-C
+(23,45) A-U
+(25,43) U-A
+(26,42) U-A
+(27,41) C-G
+(28,39) C-G
+(29,38) C-G
+(30,37) G-C
+(49,66) C-G
+(51,65) G-C
+(53,63) U-A
+(55,62) C-G
+(56,61) C-G
+(72,80) G-C
+(74,79) C-G
+------------------------
+Sequence 1 optimal pairs: 35
+(0,98) G-C
+(57,97) A-U
+(2,56) U-A
+(3,55) C-G
+(4,54) G-C
+(5,53) G-C
+(6,52) C-G
+(7,50) G-C
+(8,49) G-C
+(9,48) U-A
+(10,44) G-C
+(11,43) G-C
+(12,42) G-C
+(13,41) G-C
+(14,40) G-C
+(15,37) A-U
+(17,36) C-G
+(18,35) A-U
+(19,34) U-A
+(20,33) C-G
+(21,32) U-A
+(22,29) C-G
+(23,28) C-G
+(58,96) C-G
+(59,93) C-G
+(60,92) C-G
+(62,90) G-C
+(63,89) C-G
+(64,88) C-G
+(65,86) A-U
+(66,83) G-C
+(67,80) G-C
+(68,77) C-G
+(69,76) C-G
+(70,75) C-G
+------------------------
+Sequence 2 optimal pairs: 34
+(0,100) G-C
+(1,99) G-C
+(2,98) A-U
+(4,96) G-C
+(5,95) G-C
+(6,94) U-A
+(9,93) C-G
+(10,92) A-U
+(12,90) C-G
+(13,89) A-U
+(14,88) C-G
+(16,86) G-C
+(18,83) C-G
+(20,82) A-U
+(22,79) C-G
+(23,76) U-A
+(25,75) C-G
+(26,74) G-C
+(27,73) G-C
+(28,72) G-C
+(30,71) A-U
+(31,70) U-A
+(32,69) U-A
+(53,68) U-A
+(33,51) A-U
+(34,50) G-C
+(35,48) A-U
+(36,47) C-G
+(37,46) U-A
+(38,44) G-C
+(54,67) U-A
+(55,64) U-A
+(56,63) G-C
+(57,62) G-C
+------------------------
+
+Timing (seconds):
+Kernel: 0.00108851
+Traceback: 0.00010256
+Total: 0.00123919

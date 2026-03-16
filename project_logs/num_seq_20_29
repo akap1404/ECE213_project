@@ -1,0 +1,512 @@
+time="2026-03-15T18:54:40-07:00" level=warning msg="skipping device /dev/char/10:200 for systemd: stat /sys/dev/char/10:200: no such file or directory"
+/home/pnemade/prj_213
+-- CUDA-capable GPU found. GPU architecture: 80
+-- Found TBB: /usr/lib/x86_64-linux-gnu/cmake/TBB (found version "2021.5.0")
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pnemade/prj_213/build
+Consolidate compiler generated dependencies of target nussinov_parallel
+[100%] Built target nussinov_parallel
+Read 50 sequences from file
+Sequence 0 optimal pairs: 4
+(0,20) G-C
+(2,15) C-G
+(3,13) C-G
+(5,12) A-U
+------------------------
+Sequence 1 optimal pairs: 5
+(11,19) G-C
+(0,10) U-A
+(1,9) C-G
+(2,7) C-G
+(13,18) G-C
+------------------------
+Sequence 2 optimal pairs: 7
+(0,22) C-G
+(1,21) C-G
+(2,20) U-A
+(3,16) G-C
+(4,15) G-C
+(5,14) U-A
+(6,13) A-U
+------------------------
+Sequence 3 optimal pairs: 10
+(0,28) G-C
+(1,27) G-C
+(2,26) C-G
+(3,25) A-U
+(4,24) G-C
+(5,23) A-U
+(9,22) G-C
+(10,21) A-U
+(11,20) G-C
+(12,17) C-G
+------------------------
+Sequence 4 optimal pairs: 8
+(0,20) G-C
+(1,19) G-C
+(2,18) C-G
+(3,17) A-U
+(4,16) A-U
+(5,15) C-G
+(6,14) G-C
+(8,13) A-U
+------------------------
+Sequence 5 optimal pairs: 7
+(0,22) G-C
+(1,21) G-C
+(2,20) C-G
+(3,19) G-C
+(4,18) A-U
+(6,17) G-C
+(8,13) U-A
+------------------------
+Sequence 6 optimal pairs: 9
+(0,26) G-C
+(1,25) G-C
+(2,24) C-G
+(3,23) G-C
+(4,19) U-A
+(5,18) C-G
+(6,17) A-U
+(7,15) C-G
+(9,14) C-G
+------------------------
+Sequence 7 optimal pairs: 7
+(0,21) G-C
+(1,19) U-A
+(3,18) C-G
+(4,17) G-C
+(7,16) G-C
+(8,15) A-U
+(9,14) C-G
+------------------------
+Sequence 8 optimal pairs: 6
+(0,21) G-C
+(1,19) C-G
+(2,17) C-G
+(3,14) A-U
+(5,13) U-A
+(7,12) A-U
+------------------------
+Sequence 9 optimal pairs: 3
+(1,16) G-C
+(3,14) A-U
+(5,10) A-U
+------------------------
+Sequence 10 optimal pairs: 7
+(0,19) G-C
+(1,18) G-C
+(2,17) G-C
+(3,16) A-U
+(5,14) A-U
+(6,13) A-U
+(7,12) C-G
+------------------------
+Sequence 11 optimal pairs: 8
+(0,21) G-C
+(1,20) G-C
+(2,19) C-G
+(3,18) G-C
+(5,16) C-G
+(6,15) A-U
+(7,14) U-A
+(8,13) G-C
+------------------------
+Sequence 12 optimal pairs: 8
+(0,21) G-C
+(1,20) G-C
+(2,19) C-G
+(3,18) G-C
+(5,16) G-C
+(6,15) U-A
+(7,14) U-A
+(8,13) C-G
+------------------------
+Sequence 13 optimal pairs: 7
+(0,25) G-C
+(1,21) G-C
+(2,17) C-G
+(3,16) G-C
+(4,15) C-G
+(5,14) G-C
+(6,13) G-C
+------------------------
+Sequence 14 optimal pairs: 5
+(0,19) G-C
+(11,18) A-U
+(1,10) G-C
+(2,8) C-G
+(12,17) G-C
+------------------------
+Sequence 15 optimal pairs: 9
+(0,24) G-C
+(1,23) G-C
+(2,21) A-U
+(3,20) A-U
+(5,19) C-G
+(6,17) A-U
+(7,16) G-C
+(8,15) G-C
+(9,14) C-G
+------------------------
+Sequence 16 optimal pairs: 7
+(0,22) G-C
+(1,21) G-C
+(4,19) G-C
+(5,18) A-U
+(8,17) C-G
+(9,16) U-A
+(10,15) C-G
+------------------------
+Sequence 17 optimal pairs: 9
+(0,28) G-C
+(1,27) G-C
+(2,26) A-U
+(3,23) G-C
+(4,22) U-A
+(6,21) C-G
+(9,20) C-G
+(10,19) A-U
+(11,18) A-U
+------------------------
+Sequence 18 optimal pairs: 9
+(0,28) C-G
+(1,27) A-U
+(2,26) U-A
+(3,25) A-U
+(18,23) G-C
+(4,17) C-G
+(5,16) U-A
+(6,15) U-A
+(8,14) A-U
+------------------------
+Sequence 19 optimal pairs: 7
+(0,20) G-C
+(3,19) A-U
+(4,18) C-G
+(5,17) U-A
+(6,16) G-C
+(8,15) C-G
+(9,14) G-C
+------------------------
+Sequence 20 optimal pairs: 9
+(0,28) G-C
+(1,27) G-C
+(2,26) G-C
+(3,25) U-A
+(4,24) G-C
+(17,22) G-C
+(5,15) C-G
+(6,14) U-A
+(7,13) C-G
+------------------------
+Sequence 21 optimal pairs: 8
+(0,22) G-C
+(1,21) G-C
+(2,20) C-G
+(3,19) C-G
+(4,17) U-A
+(5,16) A-U
+(6,15) A-U
+(7,12) G-C
+------------------------
+Sequence 22 optimal pairs: 10
+(0,26) G-C
+(1,25) G-C
+(2,24) C-G
+(3,23) A-U
+(4,22) C-G
+(5,21) G-C
+(6,20) A-U
+(7,19) G-C
+(8,17) G-C
+(9,16) U-A
+------------------------
+Sequence 23 optimal pairs: 7
+(0,19) G-C
+(1,18) G-C
+(2,17) U-A
+(3,16) C-G
+(4,15) A-U
+(5,14) G-C
+(6,12) U-A
+------------------------
+Sequence 24 optimal pairs: 6
+(0,19) A-U
+(1,18) A-U
+(2,17) U-A
+(3,16) C-G
+(4,15) C-G
+(5,12) A-U
+------------------------
+Sequence 25 optimal pairs: 11
+(0,26) G-C
+(1,25) G-C
+(2,24) A-U
+(3,23) A-U
+(4,22) G-C
+(6,21) C-G
+(7,20) C-G
+(8,19) G-C
+(9,18) G-C
+(10,17) U-A
+(11,16) C-G
+------------------------
+Sequence 26 optimal pairs: 11
+(0,26) G-C
+(1,25) G-C
+(2,24) A-U
+(3,23) A-U
+(4,22) G-C
+(5,21) C-G
+(7,20) C-G
+(8,19) G-C
+(9,18) G-C
+(10,17) U-A
+(11,16) C-G
+------------------------
+Sequence 27 optimal pairs: 8
+(2,26) U-A
+(4,23) A-U
+(7,22) C-G
+(8,21) G-C
+(9,20) U-A
+(10,19) G-C
+(11,18) C-G
+(12,17) C-G
+------------------------
+Sequence 28 optimal pairs: 7
+(0,19) A-U
+(1,18) U-A
+(2,17) G-C
+(3,16) C-G
+(5,15) U-A
+(6,14) G-C
+(7,13) U-A
+------------------------
+Sequence 29 optimal pairs: 6
+(11,24) C-G
+(0,10) G-C
+(1,8) C-G
+(2,7) G-C
+(12,23) G-C
+(14,20) U-A
+------------------------
+Sequence 30 optimal pairs: 8
+(0,19) G-C
+(1,18) G-C
+(2,17) G-C
+(3,16) C-G
+(4,15) U-A
+(5,14) U-A
+(6,13) C-G
+(7,12) A-U
+------------------------
+Sequence 31 optimal pairs: 8
+(0,21) G-C
+(1,20) G-C
+(2,19) A-U
+(3,18) G-C
+(4,16) U-A
+(5,15) G-C
+(7,14) C-G
+(8,13) C-G
+------------------------
+Sequence 32 optimal pairs: 9
+(0,28) G-C
+(1,27) A-U
+(2,26) U-A
+(3,25) A-U
+(18,23) G-C
+(4,17) C-G
+(5,16) U-A
+(6,15) U-A
+(8,14) A-U
+------------------------
+Sequence 33 optimal pairs: 7
+(0,21) G-C
+(2,19) C-G
+(3,18) U-A
+(4,17) C-G
+(6,16) C-G
+(7,15) A-U
+(8,14) G-C
+------------------------
+Sequence 34 optimal pairs: 8
+(0,23) G-C
+(1,22) G-C
+(2,21) U-A
+(3,20) U-A
+(4,19) C-G
+(5,16) C-G
+(6,15) C-G
+(8,13) U-A
+------------------------
+Sequence 35 optimal pairs: 8
+(0,24) G-C
+(2,22) C-G
+(4,21) G-C
+(5,20) U-A
+(6,19) G-C
+(7,18) U-A
+(8,17) G-C
+(9,15) A-U
+------------------------
+Sequence 36 optimal pairs: 10
+(0,27) G-C
+(2,25) C-G
+(3,24) C-G
+(4,23) A-U
+(5,22) G-C
+(6,21) A-U
+(9,20) G-C
+(10,19) A-U
+(11,18) G-C
+(12,17) C-G
+------------------------
+Sequence 37 optimal pairs: 7
+(0,26) G-C
+(2,24) C-G
+(3,23) U-A
+(4,21) G-C
+(5,18) C-G
+(6,16) U-A
+(7,15) U-A
+------------------------
+Sequence 38 optimal pairs: 9
+(0,25) G-C
+(1,24) A-U
+(2,23) G-C
+(3,22) C-G
+(6,21) C-G
+(8,20) G-C
+(9,18) C-G
+(10,17) A-U
+(11,16) C-G
+------------------------
+Sequence 39 optimal pairs: 10
+(0,26) G-C
+(1,25) G-C
+(2,24) A-U
+(3,23) U-A
+(4,22) C-G
+(5,21) C-G
+(7,19) U-A
+(8,18) U-A
+(9,17) C-G
+(11,16) A-U
+------------------------
+Sequence 40 optimal pairs: 9
+(0,23) G-C
+(1,22) G-C
+(2,21) C-G
+(3,20) U-A
+(6,19) G-C
+(7,18) A-U
+(8,17) U-A
+(9,16) C-G
+(10,15) A-U
+------------------------
+Sequence 41 optimal pairs: 10
+(0,26) G-C
+(1,25) G-C
+(2,24) A-U
+(3,23) C-G
+(4,22) U-A
+(5,21) U-A
+(9,20) U-A
+(10,19) U-A
+(11,18) G-C
+(12,17) C-G
+------------------------
+Sequence 42 optimal pairs: 10
+(0,27) G-C
+(1,26) G-C
+(2,25) G-C
+(3,24) C-G
+(4,21) A-U
+(6,20) U-A
+(8,19) A-U
+(9,18) U-A
+(10,17) G-C
+(11,16) C-G
+------------------------
+Sequence 43 optimal pairs: 9
+(0,23) G-C
+(1,22) G-C
+(2,21) G-C
+(3,20) C-G
+(4,19) U-A
+(5,18) A-U
+(6,17) A-U
+(7,15) U-A
+(9,14) U-A
+------------------------
+Sequence 44 optimal pairs: 8
+(0,22) G-C
+(1,21) G-C
+(2,20) G-C
+(3,19) U-A
+(4,18) G-C
+(5,16) U-A
+(6,14) A-U
+(7,12) U-A
+------------------------
+Sequence 45 optimal pairs: 11
+(0,28) G-C
+(1,27) G-C
+(2,26) A-U
+(3,25) G-C
+(4,24) U-A
+(5,23) A-U
+(6,22) U-A
+(7,21) G-C
+(8,19) U-A
+(9,17) A-U
+(10,15) U-A
+------------------------
+Sequence 46 optimal pairs: 11
+(0,28) G-C
+(1,27) G-C
+(2,26) G-C
+(3,25) U-A
+(4,24) U-A
+(5,23) G-C
+(7,22) C-G
+(8,21) C-G
+(9,20) G-C
+(10,19) U-A
+(12,18) G-C
+------------------------
+Sequence 47 optimal pairs: 8
+(0,25) G-C
+(1,23) C-G
+(2,21) U-A
+(4,19) A-U
+(5,16) G-C
+(6,15) C-G
+(7,14) U-A
+(8,13) C-G
+------------------------
+Sequence 48 optimal pairs: 6
+(1,19) C-G
+(4,18) G-C
+(5,17) U-A
+(6,16) U-A
+(7,15) U-A
+(8,14) U-A
+------------------------
+Sequence 49 optimal pairs: 6
+(1,19) C-G
+(4,18) G-C
+(5,17) U-A
+(6,16) U-A
+(7,15) U-A
+(8,14) A-U
+------------------------
+
+Timing (seconds):
+Kernel: 0.000474112
+Traceback: 0.00023271
+Total: 0.000758891

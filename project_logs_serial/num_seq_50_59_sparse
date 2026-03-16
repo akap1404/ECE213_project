@@ -1,0 +1,78 @@
+time="2026-03-15T19:29:38-07:00" level=warning msg="skipping device /dev/char/10:200 for systemd: stat /sys/dev/char/10:200: no such file or directory"
+/home/pnemade/prj_213
+-- CUDA-capable GPU found. GPU architecture: 80
+-- Found TBB: /usr/lib/x86_64-linux-gnu/cmake/TBB (found version "2021.5.0")
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pnemade/prj_213/build
+Consolidate compiler generated dependencies of target nussinov_serial
+[100%] Built target nussinov_serial
+Read 3 sequences from file
+Sequence 0 optimal pairs: 19
+(0,54) G-C
+(1,53) G-C
+(2,52) G-C
+(3,51) A-U
+(4,50) G-C
+(5,48) U-A
+(6,46) A-U
+(7,43) A-U
+(9,40) G-C
+(10,38) A-U
+(11,37) U-A
+(12,36) U-A
+(13,34) G-C
+(15,33) G-C
+(16,32) A-U
+(17,30) C-G
+(18,28) A-U
+(19,27) A-U
+(20,26) G-C
+------------------------
+Kernel (Serial GPU): 3.87482 ms, Traceback (CPU): 0.00886 ms
+
+Sequence 1 optimal pairs: 18
+(19,58) A-U
+(0,17) G-C
+(1,14) G-C
+(2,13) A-U
+(3,12) A-U
+(4,11) G-C
+(20,57) C-G
+(22,56) C-G
+(23,55) A-U
+(24,52) A-U
+(25,50) A-U
+(26,48) C-G
+(27,47) U-A
+(28,45) A-U
+(31,44) G-C
+(33,42) G-C
+(34,41) A-U
+(35,40) C-G
+------------------------
+Kernel (Serial GPU): 4.68787 ms, Traceback (CPU): 0.008429 ms
+
+Sequence 2 optimal pairs: 18
+(0,52) G-C
+(1,51) G-C
+(2,50) A-U
+(3,49) A-U
+(4,48) U-A
+(5,47) A-U
+(6,46) U-A
+(7,42) U-A
+(11,41) G-C
+(12,39) C-G
+(13,38) U-A
+(16,36) A-U
+(17,35) C-G
+(18,34) U-A
+(21,33) C-G
+(22,32) U-A
+(23,31) A-U
+(24,29) U-A
+------------------------
+Kernel (Serial GPU): 3.45293 ms, Traceback (CPU): 0.00572 ms
+
+Total runtime for all sequences: 233.151 ms

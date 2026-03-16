@@ -1,0 +1,144 @@
+time="2026-03-15T18:28:47-07:00" level=warning msg="skipping device /dev/char/10:200 for systemd: stat /sys/dev/char/10:200: no such file or directory"
+/home/pnemade/prj_213
+-- CUDA-capable GPU found. GPU architecture: 80
+-- Found TBB: /usr/lib/x86_64-linux-gnu/cmake/TBB (found version "2021.5.0")
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pnemade/prj_213/build
+Consolidate compiler generated dependencies of target nussinov_parallel
+[100%] Built target nussinov_parallel
+Read 10 sequences from file
+Sequence 0 optimal pairs: 10
+(0,29) G-C
+(1,28) G-C
+(2,27) C-G
+(3,26) A-U
+(4,22) G-C
+(5,19) A-U
+(6,17) G-C
+(7,16) U-A
+(8,15) C-G
+(9,14) C-G
+------------------------
+Sequence 1 optimal pairs: 14
+(0,37) G-C
+(1,36) G-C
+(2,35) U-A
+(3,34) G-C
+(4,33) C-G
+(5,30) A-U
+(7,29) A-U
+(8,27) A-U
+(9,25) A-U
+(10,24) C-G
+(12,23) G-C
+(13,22) C-G
+(14,21) G-C
+(15,20) C-G
+------------------------
+Sequence 2 optimal pairs: 10
+(0,33) G-C
+(18,30) C-G
+(1,17) C-G
+(2,16) G-C
+(3,15) G-C
+(4,14) C-G
+(5,13) C-G
+(19,29) C-G
+(20,28) A-U
+(21,26) A-U
+------------------------
+Sequence 3 optimal pairs: 9
+(0,32) G-C
+(1,28) G-C
+(2,26) A-U
+(3,22) A-U
+(6,21) G-C
+(7,20) G-C
+(8,19) U-A
+(9,18) G-C
+(11,17) G-C
+------------------------
+Sequence 4 optimal pairs: 12
+(0,32) G-C
+(1,31) G-C
+(2,29) G-C
+(3,28) C-G
+(4,27) G-C
+(5,24) C-G
+(6,23) C-G
+(7,22) G-C
+(8,19) G-C
+(9,18) U-A
+(10,17) A-U
+(11,16) C-G
+------------------------
+Sequence 5 optimal pairs: 12
+(0,34) G-C
+(1,33) G-C
+(2,32) C-G
+(3,31) G-C
+(4,30) U-A
+(5,29) G-C
+(6,28) U-A
+(15,26) C-G
+(7,13) A-U
+(16,25) U-A
+(17,24) U-A
+(18,23) C-G
+------------------------
+Sequence 6 optimal pairs: 9
+(3,29) U-A
+(4,28) U-A
+(5,27) C-G
+(7,25) G-C
+(8,23) U-A
+(9,22) U-A
+(10,21) U-A
+(11,20) U-A
+(12,17) C-G
+------------------------
+Sequence 7 optimal pairs: 10
+(0,29) G-C
+(1,28) G-C
+(2,27) C-G
+(3,22) G-C
+(5,21) A-U
+(6,20) G-C
+(7,19) U-A
+(8,18) G-C
+(9,17) G-C
+(10,15) G-C
+------------------------
+Sequence 8 optimal pairs: 10
+(0,29) G-C
+(1,28) G-C
+(2,26) C-G
+(3,22) G-C
+(5,21) A-U
+(6,20) G-C
+(7,19) U-A
+(8,18) G-C
+(9,17) G-C
+(10,15) G-C
+------------------------
+Sequence 9 optimal pairs: 13
+(0,33) G-C
+(1,32) G-C
+(2,31) G-C
+(3,30) A-U
+(4,29) G-C
+(5,28) C-G
+(8,27) G-C
+(9,26) A-U
+(10,25) U-A
+(11,24) C-G
+(12,21) C-G
+(13,20) C-G
+(14,19) G-C
+------------------------
+
+Timing (seconds):
+Kernel: 0.00052736
+Traceback: 7.555e-05
+Total: 0.000645142

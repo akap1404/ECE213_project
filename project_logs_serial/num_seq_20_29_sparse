@@ -1,0 +1,39 @@
+time="2026-03-15T19:28:09-07:00" level=warning msg="skipping device /dev/char/10:200 for systemd: stat /sys/dev/char/10:200: no such file or directory"
+/home/pnemade/prj_213
+-- CUDA-capable GPU found. GPU architecture: 80
+-- Found TBB: /usr/lib/x86_64-linux-gnu/cmake/TBB (found version "2021.5.0")
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pnemade/prj_213/build
+Consolidate compiler generated dependencies of target nussinov_serial
+[100%] Built target nussinov_serial
+Read 3 sequences from file
+Sequence 0 optimal pairs: 4
+(0,20) G-C
+(2,15) C-G
+(3,13) C-G
+(5,12) A-U
+------------------------
+Kernel (Serial GPU): 0.587776 ms, Traceback (CPU): 0.00446 ms
+
+Sequence 1 optimal pairs: 5
+(11,19) G-C
+(0,10) U-A
+(1,9) C-G
+(2,7) C-G
+(13,18) G-C
+------------------------
+Kernel (Serial GPU): 0.375808 ms, Traceback (CPU): 0.00344 ms
+
+Sequence 2 optimal pairs: 7
+(0,22) C-G
+(1,21) C-G
+(2,20) U-A
+(3,16) G-C
+(4,15) G-C
+(5,14) U-A
+(6,13) A-U
+------------------------
+Kernel (Serial GPU): 0.64512 ms, Traceback (CPU): 0.00328 ms
+
+Total runtime for all sequences: 309.771 ms
