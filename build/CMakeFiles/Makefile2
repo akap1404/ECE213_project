@@ -54,16 +54,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/a4kapoor/project_213
+CMAKE_SOURCE_DIR = /home/a4kapoor/ECE213_project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/a4kapoor/project_213/build
+CMAKE_BINARY_DIR = /home/a4kapoor/ECE213_project/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
 all: CMakeFiles/nussinov_parallel.dir/all
+all: CMakeFiles/nussinov_serial.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,6 +73,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/nussinov_parallel.dir/clean
+clean: CMakeFiles/nussinov_serial.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -81,14 +83,14 @@ clean: CMakeFiles/nussinov_parallel.dir/clean
 CMakeFiles/nussinov_parallel.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nussinov_parallel.dir/build.make CMakeFiles/nussinov_parallel.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nussinov_parallel.dir/build.make CMakeFiles/nussinov_parallel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/a4kapoor/project_213/build/CMakeFiles --progress-num=1,2 "Built target nussinov_parallel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/a4kapoor/ECE213_project/build/CMakeFiles --progress-num=1,2 "Built target nussinov_parallel"
 .PHONY : CMakeFiles/nussinov_parallel.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/nussinov_parallel.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/a4kapoor/project_213/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/a4kapoor/ECE213_project/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/nussinov_parallel.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/a4kapoor/project_213/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/a4kapoor/ECE213_project/build/CMakeFiles 0
 .PHONY : CMakeFiles/nussinov_parallel.dir/rule
 
 # Convenience name for target.
@@ -99,6 +101,32 @@ nussinov_parallel: CMakeFiles/nussinov_parallel.dir/rule
 CMakeFiles/nussinov_parallel.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nussinov_parallel.dir/build.make CMakeFiles/nussinov_parallel.dir/clean
 .PHONY : CMakeFiles/nussinov_parallel.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/nussinov_serial.dir
+
+# All Build rule for target.
+CMakeFiles/nussinov_serial.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nussinov_serial.dir/build.make CMakeFiles/nussinov_serial.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nussinov_serial.dir/build.make CMakeFiles/nussinov_serial.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/a4kapoor/ECE213_project/build/CMakeFiles --progress-num=3,4 "Built target nussinov_serial"
+.PHONY : CMakeFiles/nussinov_serial.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/nussinov_serial.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/a4kapoor/ECE213_project/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/nussinov_serial.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/a4kapoor/ECE213_project/build/CMakeFiles 0
+.PHONY : CMakeFiles/nussinov_serial.dir/rule
+
+# Convenience name for target.
+nussinov_serial: CMakeFiles/nussinov_serial.dir/rule
+.PHONY : nussinov_serial
+
+# clean rule for target.
+CMakeFiles/nussinov_serial.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nussinov_serial.dir/build.make CMakeFiles/nussinov_serial.dir/clean
+.PHONY : CMakeFiles/nussinov_serial.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

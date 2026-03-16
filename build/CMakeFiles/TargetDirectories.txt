@@ -1,3 +1,4 @@
-/home/a4kapoor/project_213/build/CMakeFiles/nussinov_parallel.dir
-/home/a4kapoor/project_213/build/CMakeFiles/edit_cache.dir
-/home/a4kapoor/project_213/build/CMakeFiles/rebuild_cache.dir
+/home/a4kapoor/ECE213_project/build/CMakeFiles/nussinov_parallel.dir
+/home/a4kapoor/ECE213_project/build/CMakeFiles/nussinov_serial.dir
+/home/a4kapoor/ECE213_project/build/CMakeFiles/edit_cache.dir
+/home/a4kapoor/ECE213_project/build/CMakeFiles/rebuild_cache.dir

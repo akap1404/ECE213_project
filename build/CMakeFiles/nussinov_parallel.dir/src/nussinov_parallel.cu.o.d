@@ -1,4 +1,4 @@
-CMakeFiles/nussinov_parallel.dir/src/nussinov_parallel.cu.o : /home/a4kapoor/project_213/src/nussinov_parallel.cu \
+CMakeFiles/nussinov_parallel.dir/src/nussinov_parallel.cu.o : /home/a4kapoor/ECE213_project/src/nussinov_parallel.cu \
     /usr/include/stdc-predef.h \
     /usr/local/cuda/bin/../targets/x86_64-linux/include/cuda_runtime.h \
     /usr/local/cuda/bin/../targets/x86_64-linux/include/crt/host_config.h \

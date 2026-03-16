@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/a4kapoor/project_213
+CMAKE_SOURCE_DIR = /home/a4kapoor/ECE213_project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/a4kapoor/project_213/build
+CMAKE_BINARY_DIR = /home/a4kapoor/ECE213_project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/a4kapoor/project_213/build/CMakeFiles /home/a4kapoor/project_213/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/a4kapoor/ECE213_project/build/CMakeFiles /home/a4kapoor/ECE213_project/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/a4kapoor/project_213/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/a4kapoor/ECE213_project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,6 +129,19 @@ nussinov_parallel/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nussinov_parallel.dir/build.make CMakeFiles/nussinov_parallel.dir/build
 .PHONY : nussinov_parallel/fast
 
+#=============================================================================
+# Target rules for targets named nussinov_serial
+
+# Build rule for target.
+nussinov_serial: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nussinov_serial
+.PHONY : nussinov_serial
+
+# fast build rule for target.
+nussinov_serial/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nussinov_serial.dir/build.make CMakeFiles/nussinov_serial.dir/build
+.PHONY : nussinov_serial/fast
+
 src/nussinov_parallel.o: src/nussinov_parallel.cu.o
 .PHONY : src/nussinov_parallel.o
 
@@ -153,6 +166,30 @@ src/nussinov_parallel.cu.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nussinov_parallel.dir/build.make CMakeFiles/nussinov_parallel.dir/src/nussinov_parallel.cu.s
 .PHONY : src/nussinov_parallel.cu.s
 
+src/nussinov_serial.o: src/nussinov_serial.cu.o
+.PHONY : src/nussinov_serial.o
+
+# target to build an object file
+src/nussinov_serial.cu.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nussinov_serial.dir/build.make CMakeFiles/nussinov_serial.dir/src/nussinov_serial.cu.o
+.PHONY : src/nussinov_serial.cu.o
+
+src/nussinov_serial.i: src/nussinov_serial.cu.i
+.PHONY : src/nussinov_serial.i
+
+# target to preprocess a source file
+src/nussinov_serial.cu.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nussinov_serial.dir/build.make CMakeFiles/nussinov_serial.dir/src/nussinov_serial.cu.i
+.PHONY : src/nussinov_serial.cu.i
+
+src/nussinov_serial.s: src/nussinov_serial.cu.s
+.PHONY : src/nussinov_serial.s
+
+# target to generate assembly for a file
+src/nussinov_serial.cu.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nussinov_serial.dir/build.make CMakeFiles/nussinov_serial.dir/src/nussinov_serial.cu.s
+.PHONY : src/nussinov_serial.cu.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +199,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... nussinov_parallel"
+	@echo "... nussinov_serial"
 	@echo "... src/nussinov_parallel.o"
 	@echo "... src/nussinov_parallel.i"
 	@echo "... src/nussinov_parallel.s"
+	@echo "... src/nussinov_serial.o"
+	@echo "... src/nussinov_serial.i"
+	@echo "... src/nussinov_serial.s"
 .PHONY : help
 
 

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/a4kapoor/project_213/src/nussinov_parallel.cu" "CMakeFiles/nussinov_parallel.dir/src/nussinov_parallel.cu.o" "gcc" "CMakeFiles/nussinov_parallel.dir/src/nussinov_parallel.cu.o.d"
+  "/home/a4kapoor/ECE213_project/src/nussinov_parallel.cu" "CMakeFiles/nussinov_parallel.dir/src/nussinov_parallel.cu.o" "gcc" "CMakeFiles/nussinov_parallel.dir/src/nussinov_parallel.cu.o.d"
   )
 
 # Targets to which this target links.

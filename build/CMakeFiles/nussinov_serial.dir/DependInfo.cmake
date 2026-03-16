@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/a4kapoor/project_213/src/check_alignment.cpp" "CMakeFiles/check_alignment.dir/src/check_alignment.cpp.o" "gcc" "CMakeFiles/check_alignment.dir/src/check_alignment.cpp.o.d"
+  "/home/a4kapoor/ECE213_project/src/nussinov_serial.cu" "CMakeFiles/nussinov_serial.dir/src/nussinov_serial.cu.o" "gcc" "CMakeFiles/nussinov_serial.dir/src/nussinov_serial.cu.o.d"
   )
 
 # Targets to which this target links.
