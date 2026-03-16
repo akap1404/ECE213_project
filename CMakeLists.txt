@@ -34,6 +34,10 @@ add_executable (nussinov_parallel
     src/nussinov_parallel.cu
 )
 
+add_executable (nussinov_serial
+    src/nussinov_serial.cu
+)
+
 
 
 
