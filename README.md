@@ -7,6 +7,7 @@ The project parallelizes the DP matrix filling stage of the Nussinov algorithm t
 ## Repository Structure
 
 ECE213_project/
+
 ├── run_commands_parallel.sh  
 ├── run_commands_serial.sh  
 ├── sequences.txt  
